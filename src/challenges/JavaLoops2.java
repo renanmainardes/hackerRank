@@ -23,7 +23,7 @@ public class JavaLoops2 {
                 int b = in.nextInt();
                 int n = in.nextInt();
 
-                if ((a < 0) || (a > 50) || (b < 0) || (b > 50)) {
+                if ((a < 0) || (a > 50) || (b < 0) || (b > 50) || (n < 1) || (n >15) ) {
                     break;
                 } else {
 
