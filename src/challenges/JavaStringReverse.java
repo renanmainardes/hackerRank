@@ -19,6 +19,8 @@ public class JavaStringReverse {
 
     private static void isPalindrome(String input) {
         String lowerCaseInput = input.toLowerCase();
+
+
         String reversedLowerCaseinput = new StringBuilder(lowerCaseInput).reverse().toString();
 
         if (lowerCaseInput.equals(reversedLowerCaseinput)) {
