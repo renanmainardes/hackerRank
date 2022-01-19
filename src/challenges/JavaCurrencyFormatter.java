@@ -15,6 +15,7 @@ public class JavaCurrencyFormatter {
         if ((payment < 0) || (payment > Math.pow(10, 9))) {
             System.out.println("Input not allowed!");
             return;
+
         }
 
         Locale us = new Locale("en", "US");
