@@ -42,9 +42,7 @@ public class JavaSubarray {
                 else if (d==i){
                     sum = array[i];
                 }
-                else {
-                    sum = array[i] + array[d];
-                }
+
 
                 if (sum < 0) {
                     contador = contador + 1;
