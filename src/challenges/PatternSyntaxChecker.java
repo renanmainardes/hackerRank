@@ -12,6 +12,8 @@ public class PatternSyntaxChecker {
         while (testCases > 0) {
             String pattern = in.nextLine();
 
+            //APENAS VALIDA SE O FORMATO DA ENTRADA ESTÁ DE ACORDO COM O TIPO DE PADRÃO
+
             try {
                 Pattern.compile(pattern);
                 System.out.println("Valid");
