@@ -15,7 +15,7 @@ public class JavaSubstringComparisons {
 
         String[] initial = new String[arraySize];
 
-        for(int i=0;i<s.length()-k+1;i++) {
+        for(int i=0;i<arraySize;i++) {
 
             initial[i] = s.substring(i,i+k);
 
